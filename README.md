@@ -13,3 +13,4 @@ This project extracts employee data from a CSV, cleans it using Pandas, and load
 1. Activate venv: `.\venv\Scripts\activate`
 2. Install dependencies: `pip install pandas`
 3. Run script: `python main.py`
+4. We run "request" : `pip install requests`
