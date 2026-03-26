@@ -1,0 +1,26 @@
+# --- Python Environment ---
+# We don't share the heavy 'venv' folder; others create their own
+venv/
+.env
+*.pyc
+
+# --- Python Cache ---
+# Temporary files created by Python to run faster
+**/__pycache__/
+.pytest_cache/
+
+# --- Databases & Data ---
+# We track the CODE to build the data, not the data itself
+*.db
+*.sqlite
+*.csv
+!departments.csv
+!data.csv
+
+# --- IDE Settings ---
+# Personal VS Code settings that shouldn't be shared
+.vscode/
+.DS_Store
+
+# Logs
+*.log
